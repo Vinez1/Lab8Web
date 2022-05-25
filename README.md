@@ -355,5 +355,9 @@ header('location: index.php');
 ?>
 ```
 
+Kita ambil contoh HP Xiaomi <b>dihapus</b> maka yang akan terjadi adalah seperti tampilan web dibawah ini.
+
+<br> 
+
 ![](foto/10.png)
 <p align="center">Gambar 8.10 Hapus Data
