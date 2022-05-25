@@ -9,7 +9,7 @@ $result = mysqli_query($conn, $sql);
 <head>
     <meta charset="UTF-8">
     <link href="style.css" rel="stylesheet" type="text/css" />
-    <itle>Data Barang</title>
+    <title>Data Barang</title>
 </head>
 <body>
     <div class="container">
@@ -29,7 +29,7 @@ $result = mysqli_query($conn, $sql);
                 <?php if($result): ?>
                 <?php while($row = mysqli_fetch_array($result)): ?>
             <tr>
-                <td><img src="gambar/<?= $row['gambar'];?>" alt="<?=$row['nama'];?>"></td>          
+                <td><img src="gambar/<?= $row['gambar'];?>" alt="<?=$row['nama'];?>">`</td>          
                 <td><?= $row['nama'];?></td>
                 <td><?= $row['kategori'];?></td>
                 <td><?= $row['harga_beli'];?></td>
